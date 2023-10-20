@@ -23,7 +23,9 @@ Step 4: In the next window, give a Resource Package name and choose MIME Type as
 
 
 Step 5: Two editing tabs will appear. Close “ApplicationConfig.java”. You need to write all your required functionalities in GenericResource.java.
+
 Step 6: Alter getHtml() method as shown below.
+
 Step 7: Save your project, clean and build it. Deploy your project.
 
 ![image](https://github.com/Kaviarasu510/Ex-04_RESTful_Web_Services/assets/119392695/c3d45159-2c11-4eec-ba93-ed9815fb9cc5)
@@ -37,6 +39,7 @@ Client-Side:
 
 
 Step 1: Create a new Java Web Project. Follow steps 1-5 as in section 1.1.
+
 Step 2: Right-click on the project and select New->RESTful Java Client.
 
 ![image](https://github.com/Kaviarasu510/Ex-04_RESTful_Web_Services/assets/119392695/07a957db-f48a-4fcd-b179-438095c5eaae)
@@ -73,15 +76,19 @@ Step 8: A new window will appear. Navigate to the folder where you have placed t
 
 
 Step 9: Right-click on the Web Pages folder and select JSP. In the new window, give a name to the JSP page and click Finish.
+
 Step 10: A new tab will appear with the default contents of the JSP page. In that, include at the top and type the following code to invoke the client java code.
 
 ![image](https://github.com/Kaviarasu510/Ex-04_RESTful_Web_Services/assets/119392695/15f46016-b6fe-4311-83d3-b7a54edb88df)
 
 
 Step 11: Save the project and build it.
+
+
 Step 12: Run the JSP file and you should see the output in a new browser window.
 
-![Uploading image.png…]()
+![image](https://github.com/Kaviarasu510/Ex-04_RESTful_Web_Services/assets/119392695/28fa573c-d1f0-491a-88cf-b04c2d08dff2)
+
 
 
 
@@ -89,7 +96,9 @@ Client-Side Remote Invocation:
 
 
 Step 1: Follow steps 1-5 as in Section 2.2
+
 Step 2: In the generated NewJerseyClient.java file, Replace BASE_URI from private static final String BASE_URI = "http://localhost:8080/RESTful_Server/webresources"; TO private static final String BASE_URI = "http://192.168.116.62:8080/RESTful_Server/webresources";
+
 Step 3: Follow steps 6-12 as in Section 2.2
 
 
